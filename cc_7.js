@@ -3,7 +3,7 @@ const headlineInput = document.getElementById("headlineInput");
 const updateBtn = document.getElementById("updateBtn");
 const ctaHeadline = document.getElementbyId ("ctaHeadline");
 
-//Add event
+//Event listener
 updateBtn.addEventListener("click",function () {
     const newHeadline = headlineInput.value;
 
